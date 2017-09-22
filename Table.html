@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A simple Table</title>
+    <style>
+    table{
+      padding: 20px;
+      border-color:green;
+      border-width: 15px;
+
+    }
+    th{
+      background-color: black;
+      color:white;
+    }
+    tr:nth-child(even){
+      background-color: blue;
+
+    }
+    tr:nth-child(odd){
+      background-color: red;
+    }
+
+    </style>
+  </head>
+  <body>
+    <h1>A simple Table</h1>
+    <table border="5" height="100" width="250" Cellspacing="20" Cellpadding="20">
+      <tr>
+        <th>NAME</th>
+        <th>ROLL</th>
+        <th>SERIES</th>
+        <th>PHOTO</th>
+
+      </tr>
+      <tr>
+
+        <td>FARJANA</td>
+        <td>1503068</td>
+        <td>2015</td>
+        <td><img src="first.jpg" alt="photo of farjana"></td>
+      </tr>
+      <tr>
+
+
+        <td>MR.X</td>
+        <td>1502012</td>
+        <td>2015</td>
+      <td><img src="second.jpg" alt="photo of mr.x"></td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">MR. Y</td>
+        <td rowspan="2">143002</td>
+        <td>2014</td>
+        <td rowspan="2"><img src="third.jpg" alt="photo of mr. y"></td>
+      </tr>
+      <tr>
+        <td>2015</td>
+      </tr>
+
+    </table>
+
+
+  </body>
+</html>
